@@ -263,10 +263,11 @@ input[type=range]::-moz-range-thumb{width:24px;height:24px;border-radius:50%;bac
 </div>
 
 <div id="tab-design" class="panel active">
-
   <div class="section">
     <div class="sec-title">📚 책 정보</div>
     <div class="book-row">
+      <div style="display:flex;flex-direction:colum;">
+        <label class="lbl">책 표지</label>
       <div class="cover-upload" id="coverUpload" onclick="document.getElementById('coverInput').click()">
         <div class="cover-hint" id="coverHint"><span class="cover-icon">📷</span>표지 추가</div>
         <img id="coverImg" alt="표지">
